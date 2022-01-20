@@ -12,4 +12,6 @@ public class MovieRepository extends JpaEntityRepositoryBase<Movie, Long> {
     public MovieRepository() {
         super(Movie.class);
     }
+
+    /* edit 2*/
 }
