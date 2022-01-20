@@ -12,4 +12,5 @@ public interface MovieDAO extends JpaRepository<Movie, Long> {
     List<Movie> findAll();
 
     /*edit1*/
+    /*edit3*/
 }
