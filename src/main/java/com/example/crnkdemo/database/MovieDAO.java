@@ -10,4 +10,6 @@ public interface MovieDAO extends JpaRepository<Movie, Long> {
 
     @Query("SELECT m FROM Movie m")
     List<Movie> findAll();
+
+    /*edit1*/
 }
